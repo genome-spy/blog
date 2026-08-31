@@ -1,0 +1,25 @@
+---
+title: "GenomeSpy Blog"
+description: "Notes on GenomeSpy, genomic visualization, and the craft of making data explorable."
+page-layout: full
+listing:
+  contents: posts
+  type: table
+  fields: [date, title, description, categories]
+  sort: "date desc"
+  date-format: "MMM D, YYYY"
+  feed: true
+  page-size: 20
+  table-striped: false
+  filter-ui: false
+  sort-ui: false
+---
+
+::: {.blog-intro}
+## Making genomic data explorable
+
+Technical notes, examples, and project updates from the GenomeSpy community.
+:::
+
+::: {.blog-rule}
+:::

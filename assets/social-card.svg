@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#172331"/>
+  <path d="M0 500C180 340 290 570 470 390S770 260 940 420 1110 490 1200 380" fill="none" stroke="#7fbbdd" stroke-width="3" opacity=".5"/>
+  <path d="M0 550C180 390 300 600 480 430S780 320 960 480 1110 530 1200 430" fill="none" stroke="#276b91" stroke-width="8"/>
+  <g transform="translate(82 106) scale(1.05)">
+    <path d="M8 106c36 20 66 42 90 67 16-26 42-58 80-96-3 45-1 75 7 101 34-8 74-11 119-8-42 27-69 51-88 77 20 15 43 39 68 72-44-11-78-13-104-8-9 28-25 59-49 94-4-47-12-80-25-103-30 11-65 18-106 20 33-30 53-56 65-80-16-18-34-61-57-136Z" fill="#7fbbdd" stroke="#fff" stroke-width="7" stroke-linejoin="round" opacity=".95"/>
+  </g>
+  <text x="82" y="420" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="66" font-weight="700" letter-spacing="-2">GenomeSpy Blog</text>
+  <text x="87" y="474" fill="#b8d6e5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="26">Notes on genomic visualization</text>
+</svg>

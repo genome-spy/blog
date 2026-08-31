@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "GenomeSpy Blog"
+  site-url: "https://genomespy.app/blog/"
+  description: "Notes on GenomeSpy, genomic visualization, and the craft of making data explorable."
+  image: assets/social-card.svg
+  favicon: assets/favicon.svg
+  open-graph: true
+  twitter-card: true
+  navbar:
+    logo: assets/favicon.svg
+    logo-alt: "GenomeSpy"
+    title: "GenomeSpy Blog"
+    left:
+      - text: "GenomeSpy"
+        href: "https://genomespy.app/"
+      - text: "Documentation"
+        href: "https://genomespy.app/docs/"
+      - text: "Blog"
+        href: "index.qmd"
+      - text: "GitHub"
+        href: "https://github.com/genome-spy/genome-spy"
+    right:
+      - icon: rss
+        href: index.xml
+        aria-label: "RSS feed"
+  page-footer:
+    left: "© 2026 GenomeSpy contributors"
+    right:
+      - text: "GenomeSpy"
+        href: "https://genomespy.app/"
+      - text: "GitHub"
+        href: "https://github.com/genome-spy/genome-spy"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+    highlight-style: github
+    html-math-method: katex
+    anchor-sections: true
+    smooth-scroll: true
+
+execute:
+  freeze: auto
+  echo: true
+
+editor: source

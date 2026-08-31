@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract genomic grid</title>
+  <desc id="desc">A restrained blue grid with highlighted genomic intervals.</desc>
+  <rect width="1200" height="500" fill="#f2f8fb"/>
+  <g stroke="#d1e3eb" stroke-width="2">
+    <path d="M80 0v500M200 0v500M320 0v500M440 0v500M560 0v500M680 0v500M800 0v500M920 0v500M1040 0v500M1160 0v500"/>
+    <path d="M0 80h1200M0 180h1200M0 280h1200M0 380h1200"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M58 350C160 110 270 430 390 190S620 105 730 300 980 420 1140 80" stroke="#276b91" stroke-width="9"/>
+    <path d="M58 120C180 220 265 70 400 310S650 370 780 170 1030 90 1140 350" stroke="#7fbbdd" stroke-width="5"/>
+  </g>
+  <g fill="#172331">
+    <circle cx="390" cy="190" r="8"/><circle cx="730" cy="300" r="8"/><circle cx="920" cy="270" r="8"/>
+  </g>
+</svg>
