@@ -1,6 +1,8 @@
 ---
 title: "GenomeSpy Blog"
-description: "Notes on GenomeSpy, genomic visualization, and the craft of making data explorable."
+description:
+  "Notes on GenomeSpy, genomic visualization, and the craft of making data
+  explorable."
 page-layout: full
 listing:
   contents: posts
@@ -16,10 +18,13 @@ listing:
 ---
 
 ::: {.blog-intro}
+
 ## Making genomic data explorable
 
 Technical notes, examples, and project updates from the GenomeSpy community.
+
 :::
 
 ::: {.blog-rule}
+
 :::

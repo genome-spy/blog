@@ -203,6 +203,15 @@ blockquote {
   margin-top: 1.8rem;
 }
 
+.quarto-figure,
+.quarto-figure figure,
+.quarto-figure .quarto-video,
+.quarto-figure .video-js {
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
 .genomespy-embed {
   background: #fff;
   border: 1px solid $line;
@@ -221,7 +230,6 @@ blockquote {
 }
 
 @media (min-width: 900px) {
-  .quarto-figure,
   .cell-output-display,
   .genomespy-embed,
   .wide-content {

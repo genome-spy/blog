@@ -6,7 +6,7 @@ website:
   title: "GenomeSpy Blog"
   site-url: "https://genomespy.app/blog/"
   description: "Notes on GenomeSpy, genomic visualization, and the craft of making data explorable."
-  image: assets/social-card.svg
+  image: assets/genomespy-card.png
   favicon: assets/favicon.svg
   open-graph: true
   twitter-card: true
@@ -22,7 +22,7 @@ website:
       - text: "Blog"
         href: "index.qmd"
       - text: "GitHub"
-        href: "https://github.com/genome-spy/genome-spy"
+        href: "https://github.com/genome-spy/"
     right:
       - icon: rss
         href: index.xml
@@ -33,7 +33,7 @@ website:
       - text: "GenomeSpy"
         href: "https://genomespy.app/"
       - text: "GitHub"
-        href: "https://github.com/genome-spy/genome-spy"
+        href: "https://github.com/genome-spy/"
 
 format:
   html:
