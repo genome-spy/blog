@@ -14,7 +14,10 @@ One might think it was a technology-driven experiment, which is partially true,
 but there was nevertheless a real use case I was trying to solve: the
 exploration of copy-number segments in an ovarian high-grade serous carcinoma
 cohort. First in the [HERCULES project](https://herculesovca.blog/), and later
-in its successor, the [DECIDER project](https://www.deciderproject.eu/).
+in its successor, the [DECIDER project](https://www.deciderproject.eu/). What
+made these cohorts particularly interesting from a visualization perspective was
+the extensive sampling. Individual patients had tumor samples from multiple
+anatomical sites and different stages of their treatment.
 
 Copy-number variation is one manifestation of genomic and chromosomal
 instability, with features spanning from broad arm-level events to dense
@@ -83,12 +86,12 @@ manner. Still, GenomeSpy's grammar and API have stayed remarkably stable, mostly
 because numerous existing visualizations depend on them.
 
 I've nevertheless hesitated to release v1.0. There have always been annoying
-corner cases, essential features to be implemented, and documentation has been
-insufficient. In addition, much of GenomeSpy's feature set was defined by the
-needs of research projects aimed at overcoming drug resistance in ovarian cancer
-rather than building polished software products. But the main reason, when I
-think about it now, has been my perfectionism, which isn't always a useful
-trait.
+corner cases, essential features to be implemented, and documentation that has
+been insufficient. In addition, much of GenomeSpy's feature set was defined by
+the needs of the research projects aimed at overcoming drug resistance in
+ovarian cancer rather than building polished software products. But the main
+reason, when I think about it now, has been my perfectionism, which isn't always
+a useful trait.
 
 I graduated some time ago and finally got an opportunity to focus on this
 unfinished business. During the last several months, I've fixed quite a lot of
@@ -104,6 +107,7 @@ I have now taken a bold step: GenomeSpy 1.0 is out.
 
 There isn't one single feature that defines this release. In fact, there's
 nothing new in v1.0, as it is solely a version bump from the earlier v0.90.0.
+But not long ago, I wouldn't have been comfortable with the bump.
 
 Much of the recent work has been about making existing pieces more complete and
 predictable, something that a user would expect from a relatively mature
@@ -119,12 +123,12 @@ There has also been a lot of work on not-so-exciting features that are still
 important when creating plots and visualizations for others to view. Legends,
 for example.  Axes and view titles now allocate their required space
 automatically, and clipping and layout behave better in dense compositions with
-scrollable viewports. Previously, users had to adjust these manually
+scrollable viewports. Previously, users had to adjust these manually.
 
 GenomeSpy uses a GPU-first design. While nearly all PCs, Macs, tablets, and
 phones have a GPU, that is not always the case in virtualized environments. The
 new canvas renderer, while much slower, now allows GenomeSpy to be used in these
-environments and may even be the preferred renderer for visualizations that shown
+environments and may even be the preferred renderer for visualizations that show
 only a moderate amount of data on the screen.
 
 For a long time, the official way to export figures was to take a screenshot,
@@ -151,12 +155,13 @@ protein positions.
 
 ## What's next
 
-There are already several breaking changes waiting in the backlog. Now that v1.0
-is out, it is clear that those changes will go into v2.0, which I expect to
-release in the relatively near future. v2.0 will come with a migration guide
-for the grammar and API changes. It will also include new long-awaited features
-enabled—or at least significantly made easier—by a WebGPU renderer, which is
-already feature-complete for the current grammar, but needs further testing.
+There are already several small but breaking changes waiting in the backlog,
+aimed at cleaning up a few design decisions. Now that v1.0 is out, it is clear
+that those changes will go into v2.0, which I expect to release in the
+relatively near future. v2.0 will come with a migration guide for the grammar
+and API changes. It will also include new long-awaited features enabled—or at
+least significantly simplified—by a WebGPU renderer, which is already
+feature-complete for the current grammar but needs further testing.
 
 GenomeSpy 1.0 also brings something important on the Python side. I've been
 collaborating with [Oskari
